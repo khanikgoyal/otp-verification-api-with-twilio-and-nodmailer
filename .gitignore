@@ -1,0 +1,69 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Dependency management files
+node_modules/
+vendor/
+build/
+dist/
+target/
+
+# Package manager files
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Environment specific files
+.env
+.env.*
+config.env
+config.local.js
+
+# Sensitive files
+*.key
+*.pem
+*.pfx
+*.jks
+
+# Logs
+logs/
+*.log
+
+# Test reports
+coverage/
+.nyc_output/
+
+# Database files
+*.sqlite
+*.db
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+
+# Miscellaneous
+*~
+.#*"config.env" 
